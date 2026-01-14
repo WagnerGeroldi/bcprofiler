@@ -8,7 +8,7 @@ function redirectToWhatsApp(event) {
     var texto = document.getElementById("texto").value;
     
     // Seu número de telefone no formato internacional (ex: 55 DDD Número, sem + ou 00)
-    var numeroTelefone = "5554996366433"; // Substitua pelo seu número
+    var numeroTelefone = "5551997600239"; // Substitua pelo seu número
 
     // Formata a mensagem com os dados coletados. Use %0a para quebra de linha.
     var textoMensagem = "Olá, meu nome é: " + nome +  
