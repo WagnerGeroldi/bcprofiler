@@ -23,10 +23,7 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>BC Profiler | Desenvolvimento Humano</title>
@@ -160,6 +157,7 @@
                         </label>
                         <input
                           type="text"
+                          required
                           class="form-control mb-2"
                           id="nome"
                           placeholder="Informe seu Nome"
@@ -173,6 +171,7 @@
                         </label>
                         <input
                           type="number"
+                          required
                           class="form-control"
                           id="whats"
                           placeholder="51999668080"
@@ -187,11 +186,12 @@
                         <select
                           name=""
                           id="atendimento"
+                          required
                           class="form-select mb-2"
                         >
-                          <option value="mentoria">Mentoria</option>
-                          <option value="gestao">Gestão Empresarial</option>
-                          <option value="marketing">Marketing</option>
+                          <option value="Mentoria">Mentoria</option>
+                          <option value="Gestão Empresarial">Gestão Empresarial</option>
+                          <option value="Marketing">Marketing</option>
                           <option value="o4">opção 4</option>
                           <option selected value="C0">
                             Escolha o Atendimento
@@ -204,104 +204,40 @@
                   <div class="row row-form">
                     <div class="col-12 col-md-4">
                       <div class="form-group">
-                        <label htmlFor="linguagem" class="text-purple">
-                          Como nos Encontrou:
+                        <label htmlFor="nome" class="text-purple ">
+                          Cidade:
                         </label>
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="radio"
-                            name="flexRadioDefault"
-                            id="flexRadioDefault1"
-                          />
-                          <label
-                            class="form-check-label"
-                            htmlFor="flexRadioDefault1"
-                          >
-                            Facebook
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="radio"
-                            name="flexRadioDefault"
-                            id="flexRadioDefault2"
-                            checked
-                          />
-                          <label
-                            class="form-check-label"
-                            htmlFor="flexRadioDefault2"
-                          >
-                            Instagram
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="radio"
-                            name="flexRadioDefault"
-                            id="flexRadioDefault1"
-                          />
-                          <label
-                            class="form-check-label"
-                            htmlFor="flexRadioDefault1"
-                          >
-                            Amigos
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="radio"
-                            name="flexRadioDefault"
-                            id="flexRadioDefault2"
-                            checked
-                          />
-                          <label
-                            class="form-check-label"
-                            htmlFor="flexRadioDefault2"
-                          >
-                            Linkedin
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="radio"
-                            name="flexRadioDefault"
-                            id="flexRadioDefault2"
-                            checked
-                          />
-                          <label
-                            class="form-check-label"
-                            htmlFor="flexRadioDefault2"
-                          >
-                            Outros
-                          </label>
+                        <input
+                          type="text"
+                          class="form-control mb-2"
+                          id="cidade"
+                          placeholder="Informe sua cidade"
+                          required
+                        />
+                        
                         </div>
                       </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                      <label
+                      <div class="col-12 col-md-4 mb-3">
+                        <label
                         htmlFor="exampleFormControlTextarea1"
                         class="form-label"
-                      >
+                        >
                         Mande uma mensagem para nós:
                       </label>
                       <textarea
-                        class="form-control"
-                        placeholder="Sua mensagem aqui..."
-                        id="texto"
-                        
+                      class="form-control"
+                      placeholder="Sua mensagem aqui..."
+                      id="texto"
+                      
                       ></textarea>
                     </div>
+                  </div>
                     <div class="col-12 mt-md-5">
                       <button
-                        class="btn bg-dark text-white mx-auto d-block mb-4"
+                        class="btn bg-success text-white mx-auto d-block mb-4"
                         type="submit"
                       >
-                        Enviar
+                        Enviar no Whatsapp <i class="fa fa-whatsapp" aria-hidden="true"></i>
                       </button>
                     </div>
                   </div>

@@ -6,13 +6,14 @@ function redirectToWhatsApp(event) {
     var whats = document.getElementById("whats").value;
     var atendimento = document.getElementById("atendimento").value;
     var texto = document.getElementById("texto").value;
-    
+    var cidade = document.getElementById("cidade").value;
     // Seu número de telefone no formato internacional (ex: 55 DDD Número, sem + ou 00)
     var numeroTelefone = "5551997600239"; // Substitua pelo seu número
 
     // Formata a mensagem com os dados coletados. Use %0a para quebra de linha.
     var textoMensagem = "Olá, meu nome é: " + nome +  
                         " Meu Whats para contato é : " + whats +
+                                                " Sou da cidade de : " + cidade +
                         " Gostaria de atendimento para : " + atendimento +
                         " Mensagem: " + texto;
                         
