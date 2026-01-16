@@ -5,6 +5,7 @@
 * {
     color: black;
     font-family: 'Segoe UI'!important;
+    
 }
 
 body {
@@ -24,4 +25,25 @@ body {
 
 .text-color {
     color: white;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.strong {
+    font-weight: 600;
+    display: inline-block!important;
+}
+
+.text-inst {
+    padding: 5px;
+    text-align: center;
+    color: var(--cor-verde);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.btn-color {
+    background-color: var(--cor-verde)!important;
 }
