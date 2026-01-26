@@ -4,8 +4,18 @@
 
 * {
     color: black;
-    font-family: 'Segoe UI'!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     
+}
+
+.ilogo {
+    color: white;
+}
+
+.link {
+    color: white!important;
+    text-decoration: none!important;
+    font-weight: 500;
 }
 
 body {
@@ -41,9 +51,14 @@ body {
     text-align: center;
     color: var(--cor-verde);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
+
 }
 
 .btn-color {
     background-color: var(--cor-verde)!important;
+}
+
+.text-white {
+    color: white!important;
 }
