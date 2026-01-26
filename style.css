@@ -55,6 +55,19 @@ body {
 
 }
 
+
+.text-inter {
+    padding: 5px;
+        font-weight: 500;
+        font-size: 22px;
+    color: var(--cor-verde);
+}
+
+.text-color-verde {
+    color: var(--cor-verde);
+    font-weight: 600;
+}
+
 .btn-color {
     background-color: var(--cor-verde)!important;
 }
