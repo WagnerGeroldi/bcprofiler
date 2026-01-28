@@ -1,77 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
-    --cor-verde: rgb(148, 171, 134);
+  --cor-verde: rgb(148, 171, 134);
+  --cor-verde-forte: rgb(93, 129, 71);
+  --gradiente: linear-gradient(
+    180deg,
+    rgb(133, 177, 119) 0%,
+    rgb(240, 213, 82) 100%
+  );
 }
 
+
 * {
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .ilogo {
-    color: white;
+  color: white;
 }
 
 .link {
-    color: white!important;
-    text-decoration: none!important;
-    font-weight: 500;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 500;
 }
 
 body {
-    background-color: rgb(238, 238, 238)!important;
+  background: linear-gradient(
+    to right top,
+    #eef3c5,
+    #e9faf6,
+    #f5ffba,
+    #daf4d7,
+    #e0eec1
+  ) !important;
 }
 
-
 .bg-bc {
-    background: var(--cor-verde);
+  background: var(--gradiente);
 }
 
 .title {
-    font-size: 30px;
-    color: var(--cor-verde);
-    font-weight: 600;
+  font-size: 30px;
+  color: var(--cor-verde-forte);
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-color {
-    color: white;
+  color: white;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .strong {
-    font-weight: 600;
-    display: inline-block!important;
+  font-weight: 600;
+  display: inline-block !important;
 }
 
 .text-inst {
-    padding: 5px;
-    text-align: center;
-    color: var(--cor-verde);
-    font-weight: 500;
-    font-size: 30px;
-
+  padding: 5px;
+  text-align: center;
+  color: var(--cor-verde);
+  font-weight: 500;
+  font-size: 30px;
 }
 
-
 .text-inter {
-    padding: 5px;
-        font-weight: 500;
-        font-size: 22px;
-    color: var(--cor-verde);
+  padding: 5px;
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--cor-verde);
 }
 
 .text-color-verde {
-    color: var(--cor-verde);
-    font-weight: 600;
+  color: var(--cor-verde-forte);
+  font-weight: 600;
 }
 
 .btn-color {
-    background-color: var(--cor-verde)!important;
+  background-color: var(--cor-verde) !important;
 }
 
 .text-white {
-    color: white!important;
+  color: white !important;
 }
