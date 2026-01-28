@@ -31,14 +31,7 @@
 }
 
 body {
-  background: linear-gradient(
-    to right top,
-    #eef3c5,
-    #e9faf6,
-    #f5ffba,
-    #daf4d7,
-    #e0eec1
-  ) !important;
+  background: linear-gradient(to top, rgb(255, 255, 255), rgb(190, 190, 190), rgb(248, 255, 233))!important;
 }
 
 .bg-bc {
