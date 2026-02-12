@@ -224,3 +224,88 @@ footer{
     background:#f8d7da;
     color:#721c24;
 }
+
+
+/* HAMBURGER */
+
+.hamburger{
+    display:none;
+    flex-direction:column;
+    gap:6px;
+    cursor:pointer;
+}
+
+.hamburger span{
+    width:28px;
+    height:3px;
+    background:#fff;
+    transition:.3s;
+}
+
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    visibility:hidden;
+    transition:.3s;
+    z-index:998;
+}
+
+.overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+}
+
+@media(max-width:900px){
+
+    .hamburger{
+        display:flex;
+        z-index:1001;
+    }
+
+    nav{
+        position:fixed;
+        top:0;
+        right:-100%;
+        height:100vh;
+        width:260px;
+        background:#0f3b2e;
+        flex-direction:column;
+        padding-top:100px;
+        gap:25px;
+        transition:.4s;
+        z-index:1000;
+    }
+
+    nav a{
+        margin:0;
+        font-size:18px;
+    }
+
+    nav.active{
+        right:0;
+    }
+
+    /* animação X */
+
+    .hamburger.active span:nth-child(1){
+        transform:rotate(45deg) translate(6px,6px);
+    }
+
+    .hamburger.active span:nth-child(2){
+        opacity:0;
+    }
+
+    .hamburger.active span:nth-child(3){
+        transform:rotate(-45deg) translate(7px,-7px);
+    }
+}
