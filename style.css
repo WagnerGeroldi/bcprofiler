@@ -17,10 +17,6 @@ body{
     margin:auto;
 }
 
-.text-justify {
-    text-align: justify;
-}
-
 header{
     background:#0f3b2e;
     position:fixed;
@@ -39,6 +35,10 @@ header{
     height:45px;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 nav a{
     color:#fff;
     margin-left:20px;
@@ -52,10 +52,10 @@ nav a:hover{
 }
 
 .hero{
-    background-image:url("./assets/bc.jpeg");
+    background:url("./assets/bc.jpeg") center/cover;
     background-size: cover;
     background-attachment: fixed;
-    height: 100svh;
+    height: 100vh;
     color:#fff;
     padding:180px 0 120px;
     text-align:center;

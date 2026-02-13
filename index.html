@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body>
@@ -54,9 +55,9 @@
 
     <section id="quem" class="section">
       <div class="container" data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+     data-aos-anchor-placement="bottom-center">
         <h2>Quem Somos</h2>
-        <p class="text-justify ">
+        <p >
           Fundada pela união de dois sócios com trajetórias complementares e
           mais de duas décadas de experiência em educação, gestão de pessoas,
           desenvolvimento humano e liderança empresarial. Atuamos na base que
@@ -72,26 +73,24 @@
         <h2>Direção & Fundadores</h2>
 
         <div class="fundadores">
-          <div class="card" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+          <div class="card" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
             <img src="./assets/lhb.jpeg" />
             <h3>Luciane Bandow</h3>
             <span>Sócia-fundadora | Diretora de Desenvolvimento Humano</span>
-            <p class="cor-texto text-justify ">
+            <p class="cor-texto">
               Especialista em Desenvolvimento Humano Estratégico, criadora do
               Método EQUILIBRAR®, com mais de duas décadas de atuação em
               liderança, formação profissional e gestão de pessoas.
             </p>
           </div>
 
-          <div class="card" data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+          <div class="card" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
             <img src="./assets/rfc.jpeg" />
             <h3>Rodrigo Fernando Cereser</h3>
             <span>Sócio-fundador | Diretor de Estratégia e Negócios</span>
-            <p class="cor-texto text-justify ">
+            <p class="cor-texto">
               Executivo com ampla experiência em gestão empresarial, liderança e
               estratégia comercial, conectando visão de negócios e
               desenvolvimento humano aplicado.
@@ -149,7 +148,7 @@
     <section id="programas" class="section">
       <div class="container">
         <h2>Programas & Soluções</h2>
-        <p class="text-justify">
+        <p>
           Consultoria Organizacional, Mentorias Executivas, Desenvolvimento de
           Equipes, Palestras de Impacto, Avaliações Comportamentais, Saúde
           Emocional no Trabalho (NR-1), Soluções para Mulheres em Liderança e
@@ -161,7 +160,7 @@
     <section id="diferenciais" class="section dark">
       <div class="container">
         <h2>O Que Nos Torna Únicos</h2>
-        <p class="text-justify">
+        <p>
           Não entregamos ações pontuais. Estruturamos a base humana que sustenta
           decisões, cultura e resultados organizacionais. Método próprio,
           diagnóstico antes de agir, soluções sob medida e visão integrada de
@@ -193,7 +192,7 @@
           <button type="submit">Enviar Mensagem</button>
         </form>
 
-        <p class="presenca text-justify">
+        <p class="presenca">
           Entregas presenciais, online e In Company, com mobilidade para
           projetos em todo o Brasil e no exterior.
         </p>
@@ -208,7 +207,6 @@
       >WhatsApp</a
     >
     <script src="script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
 const params = new URLSearchParams(window.location.search);
@@ -228,7 +226,6 @@ if(status){
 
     document.querySelector("#contato .container").prepend(div);
 }
-
 </script>
 <script>
   AOS.init();
