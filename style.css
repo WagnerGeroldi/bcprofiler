@@ -17,6 +17,10 @@ body{
     margin:auto;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 header{
     background:#0f3b2e;
     position:fixed;
